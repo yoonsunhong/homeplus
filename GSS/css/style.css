@@ -1,0 +1,53 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/* 태그 초기화 */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,
+center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,
+summary,time,mark,audio,video,input,select,button,address{margin:0;padding:0;border:0; font-size:12px;}
+body,html{height:100%;overflow:hidden;font-family:"Nanum Gothic", 나눔고딕;overflow-x:hidden}
+h1, h2, h3, h4, h5, h5{font-size:100%}
+ol,ul{list-style:none;}
+img{border:0px;vertical-align:top}
+caption{font-size:0px;line-height:0px;width:0px;height:0px;overflow:hidden}
+input[type="button"]{padding-left:5px;border:0px;cursor:pointer}
+address{font-style:normal;}
+a{text-decoration:none;}
+button[type="button"]{cursor:pointer}
+
+.p_r{position:relative;}
+.p_a{position:absolute;}
+.f_l{float:left;}
+.f_r{float:right;}
+.clear{display:block;content:"";clear:both}
+
+body{width:100%;height:100%;overflow:hidden;background:url("../images/body_bg.jpg") no-repeat fixed 50% 0;background-size:cover;}
+/*background-size:cover 이미지 크기 비율을 그대로 유지한 상태에서 이미지가 들어 있는 엘리먼트의 가로 또는 세로에 이미지를 맞춘다.(가로와 세로 중 큰 값에 맞춘다)*/
+/*background-attachment:fixed 이미지가 윈도우 창에 상대적인 위치. (스크롤바를 내려도 이미지 위치가 그대로임)*/
+
+.top{margin:20px}
+.top .line{width:100%;height:10px;margin-bottom:13px;background:#e22d33}
+
+.area{position:absolute;bottom:34px;right:50px;width:409px;height:279px}
+.area h2{text-align:center}
+.area .login_area{width:324px;height:151px;padding:23px 43px;background:url("../images/login_bg.png") no-repeat 0 0;}
+.area h3.tit{padding-bottom:18px}
+.area label{position:absolute;top:10px;left:18px;color:#fff;font-size:13px}
+.area input{width:191px;height:18px;padding:8px 18px;background:#aaa;color:#fff;font-size:14px}
+.area input:focus{outline:none;}
+.area input.id_area{margin-bottom:6px}
+
+.area input.id_chk, .area label.id_save{float:left;}
+.area input.id_chk{width:13px;height:13px;margin-top:11px;}
+.area label.id_save{margin:9px 0 0 5px;color:#000}
+
+.log_btn{width:91px;height:74px;color:#fff;font-weight:bold;background:url("../images/login.png") no-repeat 0 0;}
+
+.search_btn, .info_btn{width:160px;height:22px;line-height:22px;margin-top:12px;text-align:center;color:#fff;background:url("../images/btn_bg.png") no-repeat 0 0}
+
+.menu_down, .menu_down p{height:29px;line-height:29px}
+.menu_down{width:100%;margin-top:9px;background:url("../images/menual_bg.png") no-repeat 0 0}
+.menu_down p{width:160px;margin:0px auto;background:url("../images/menual_ico.png") no-repeat 0 4px}
+
+.login_footer{position:fixed;bottom:45px;width:100%;text-shadow:1px 1px 1px rgba(0, 0, 0, .7);}
+.login_footer p, .login_footer address{font-size:12px;color:#fff;text-align:center}

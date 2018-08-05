@@ -1,0 +1,41 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/* 태그 초기화 */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,
+center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,
+summary,time,mark,audio,video,input,select,button,address{margin:0;padding:0;border:0;font-family:"Nanum Gothic", 나눔고딕; font-size:12px;}
+body,html{height:100%;overflow:hidden;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;overflow-x:hidden}
+h1, h2, h3, h4, h5, h5{font-size:100%}
+ol,ul{list-style:none;}
+img{border:0px;vertical-align:top}
+caption{font-size:0px;line-height:0px;width:0px;height:0px;overflow:hidden}
+input[type="button"]{padding-left:5px;border:0px;cursor:pointer}
+address{font-style:normal;}
+a{text-decoration:none;}
+button[type="button"]{cursor:pointer;}
+
+.p_r{position:relative;}
+.p_a{position:absolute;}
+.f_l{float:left;}
+.f_r{float:right;}
+.b_x{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+
+.hpf_login{width:100%;height:100%;background:url("../images/hpf_bg.jpg") no-repeat 50% 0;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;background-attachment:fixed;overflow:hidden;}
+
+.area{position:absolute;top:50%;left:50%;width:453px;height:313px;margin:-200px 0 0 -490px}
+.area h1{padding-bottom:30px}
+.ado_login h1{padding-left:18px}
+.area .login_area{width:453px;height:263px;padding:67px 65px;margin-left:-19px;background:url("../images/login_bg.png") no-repeat 0 0;}
+.area h2.tit{padding-bottom:18px}
+.area label{top:10px;left:18px;color:#fff;font-size:13px}
+.area input{width:226px;height:34px;padding:11px 18px;background:#aaa;color:#fff;font-size:14px}
+.area input:focus{outline:none;}
+.area input.id_area{margin-bottom:6px}
+
+.area input.id_chk, .area label.id_save{float:left;}
+.area input.id_chk{width:13px;height:13px;margin-top:11px;}
+.area label.id_save{margin:9px 0 0 5px;color:#000}
+
+.login_footer{position:fixed;bottom:45px;width:100%;height:20px;}
+address{font-size:12px;color:#858585;text-align:center}
